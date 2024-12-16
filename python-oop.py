@@ -1,5 +1,7 @@
-class computer:
-    def confige():
-        print(54245)
+class phone:
+    def configuration(self,name,ram,price):
+        #print(name,ram,price)
 
-computer.confige()
+phone1=phone()
+phone1.configuration("nokia",8,152223)
+print(phone1)
